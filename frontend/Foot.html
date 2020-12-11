@@ -1,0 +1,41 @@
+<head>
+    <script src= 
+    "https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"> 
+      </script> 
+    <style>
+        #leftFoot{
+            position:absolute;
+            width:100px
+        }
+        #rightFoot{
+            position:absolute;
+            width:100px
+        }
+        #leftfoot_image{
+            width:100%
+        }
+        #rightfoot_image{
+            width:100%
+        }
+        #square_outline{
+            border: solid #000;
+            border-width: 1px;
+            width: 300px;
+            height:300px
+        }
+        #screenshot{
+            width:300px;
+            height:100px
+        }
+    </style>
+</head>
+<body>
+    <div id="square_outline">
+    <div id="leftFoot" ><img id="leftfoot_image" src="image/1_left.jpg"/></div>
+    <div id="rightFoot" ><img id="rightfoot_image" src="image/1_right.jpg"/></div>
+</div>
+    <button id="screenshot" onClick="screenshot()">screenshot</button>
+    <div id="output"></div>
+    <script src="Foot.js"></script>
+    
+</body>
