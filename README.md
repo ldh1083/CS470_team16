@@ -1,2 +1,6 @@
 # IntroAI_Team16
-Foot detection for communication
+## Overview
+### Foot detection for communication
+This project is made for the communication using feet.
+
+## Motivation
