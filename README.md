@@ -16,4 +16,4 @@ There are 5 sole types and you can make your own feet position. By several manip
 There are two directory: one is composed of python files and the trained model that predicts the floor number and the other is composed of .ipynb files that trains model, tests model and so on.
 ![결과](https://user-images.githubusercontent.com/69745143/101984427-c87fb000-3cc4-11eb-8b55-6a0618c92b1b.PNG)
 
-<img src="https://user-images.githubusercontent.com/69745143/101984427-c87fb000-3cc4-11eb-8b55-6a0618c92b1b.PNG"  width="700" height="370">
+<img src="https://user-images.githubusercontent.com/69745143/101984427-c87fb000-3cc4-11eb-8b55-6a0618c92b1b.PNG"  width="200" height="230">
