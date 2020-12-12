@@ -2,9 +2,8 @@
    These helper functions are built to mirror those in the official TensorFlow implementation.
 """
 
-# Author: lukemelas (github username)
-# Github repo: https://github.com/lukemelas/EfficientNet-PyTorch
-# With adjustments and added comments by workingcoder (github username).
+# Improvised and Edited for CS470 Final Project: Jio Oh, Donghyeon Lee
+# reference: https://github.com/lukemelas/EfficientNet-PyTorch
 
 import re
 import math
