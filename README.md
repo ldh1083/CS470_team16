@@ -15,3 +15,8 @@ There are 5 sole types and you can make your own feet position. By several manip
 ### Back
 There are two directory: one is composed of python files and the trained model that predicts the floor number and the other is composed of .ipynb files that trains model, tests model and so on.
 <img src="https://user-images.githubusercontent.com/69745143/101984427-c87fb000-3cc4-11eb-8b55-6a0618c92b1b.PNG"  width="200" height="230">
+
+#### EfficientNet
+We use one of the most powerful CNNs for classification, EfficientNet made in 2019. Its new idea is to control three parameter: width, depth and resolution. It has lots of levels such as B0, B1 and so on. However, size and resolution of our data are small so, we use EfficientNet B0. Furthermore, we generated 6000 images by hand and these are less than general. Therefore, we use pre-trained model and fine-tuning.
+**Paper: EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks**
+[논문 주소](https://arxiv.org/pdf/1905.11946.pdf)
