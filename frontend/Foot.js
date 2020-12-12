@@ -78,6 +78,8 @@ function choose_sample(n){
 
 function screenshot(){
     console.log('screenshot')    
+    filename=document.getElementById('filename').value
+    console.log(filename)
     let div = document.getElementById('square_outline'); 
 
         // Use the html2canvas 
@@ -90,7 +92,7 @@ function screenshot(){
                 output.appendChild(canvas)
                 var link = document.createElement("a");
                 document.body.appendChild(link);
-                link.download = "html_image.png";
+                link.download = "./image/"+filename+".png";
                 console.log(link)
                 link.href = canvas.toDataURL("image/png");
                 link.target = '_blank';
