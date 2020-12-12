@@ -2,14 +2,26 @@
     <script src= 
     "https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"> 
       </script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        body {
+            background-color:#F3ece4;
+        }
+        h1{
+        color:#621940
+        }
+        h4{
+            color:#843b62
+        }
         #leftFoot{
             position:absolute;
-            width:100px
+            width:100px;
+            left:30%
         }
         #rightFoot{
             position:absolute;
-            width:100px
+            width:100px;
+            left:40%
         }
         #leftfoot_image{
             width:100%
@@ -20,22 +32,78 @@
         #square_outline{
             border: solid #000;
             border-width: 1px;
-            width: 300px;
-            height:300px
+            background-color:white;
+            width: 420px;
+            height:420px;
+
         }
         #screenshot{
             width:300px;
             height:100px
         }
+        #guideline{
+            width:80%;
+            margin-bottom:3%
+        }
+    
+        .grid-in{
+            display:inline-block;
+            text-align:center
+        }
+        #custom{
+            height:420px;
+            margin-left:30px
+        }
+        .sample{
+            width:50px;
+            margin-left:10px;
+            margin-right:10px
+        }
+        #samples{
+            background-color:white
+        }
     </style>
 </head>
 <body>
-    <div id="square_outline">
-    <div id="leftFoot" ><img id="leftfoot_image" src="image/1_left.jpg"/></div>
-    <div id="rightFoot" ><img id="rightfoot_image" src="image/1_right.jpg"/></div>
-</div>
+    <center>
+    <h1>Virtual Elevator</h1>
+    <h4>Make foot position corresponding to the floor you want.</h4>
+    <img id="guideline" src="image/guideline.png"/>
+    <div id="main-grid">
+        <table>
+            <tr>
+    <td>
+                <div id="square_outline">
+    <div id="leftFoot"onmouseover="" style="cursor: pointer;" ><img id="leftfoot_image"  src="image/1_left.jpg"/></div>
+    <div id="rightFoot"onmouseover="" style="cursor: pointer;" ><img id="rightfoot_image"  src="image/1_right.jpg"/></div>
+    </div>
+    </div>
+</td>
+<td>
+    <div class="grid-in" id="custom">
+        <h4>Select your sole.</h4>
+        <table id="samples">
+            <tr>
+                <td ><img class="sample"src="image/1_left.jpg" onmouseover="" style="cursor: pointer;" onClick="choose_sample(1)"/></td>
+                <td ><img class="sample"src="image/2_left.jpg" onmouseover="" style="cursor: pointer;"onClick="choose_sample(2)"/></td>
+                <td ><img class="sample"src="image/3_left.jpg" onmouseover="" style="cursor: pointer;"onClick="choose_sample(3)"/></td>
+                <td ><img class="sample"src="image/4_left.jpg" onmouseover="" style="cursor: pointer;"onClick="choose_sample(4)"/></td>
+                <td ><img class="sample"src="image/5_left.jpg" onmouseover="" style="cursor: pointer;"onClick="choose_sample(5)"/></td>
+            </tr>
+        </table>
+        <h4>Commands</h4>
+        <div>MouseClick: Select</div>
+        <div>Keyboard left,right: Rotate</div>
+        <div>Keyboard up,down: Heel or Flat</div>
+        
+    </div>
+</td>
+</tr>
+</table>
     <button id="screenshot" onClick="screenshot()">screenshot</button>
+    
     <div id="output"></div>
+</center>
     <script src="Foot.js"></script>
     
 </body>
