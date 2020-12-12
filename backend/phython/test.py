@@ -64,10 +64,10 @@ image_size = EfficientNet.get_image_size(model_name)
 model = EfficientNet.from_pretrained(model_name, num_classes=15)
 
 model = model.to(device)
-model.load_state_dict(torch.load('/gdrive/MyDrive/CS470/Final_Proj/results/best.pt', map_location=device))
+model.load_state_dict(torch.load('', map_location=device))
 
 
 
-image = Image.open('/gdrive/MyDrive/CS470/Final_Proj/test_data/그림1.png').convert('RGB')
+image = Image.open('').convert('RGB')
 pred = test(image)
 show_result(pred, image)
