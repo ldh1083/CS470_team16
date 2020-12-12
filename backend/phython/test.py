@@ -68,6 +68,6 @@ model.load_state_dict(torch.load('best.pt', map_location=device))
 
 
 
-image = Image.open('').convert('RGB')
+image = Image.open('sample.png').convert('RGB')
 pred = test(image)
 show_result(pred, image)
