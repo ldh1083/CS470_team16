@@ -2,9 +2,8 @@
    They are built to mirror those in the official TensorFlow implementation.
 """
 
-# Author: lukemelas (github username)
-# Github repo: https://github.com/lukemelas/EfficientNet-PyTorch
-# With adjustments and added comments by workingcoder (github username).
+# Improvised and Edited for CS470 Final Project: Jio Oh, Donghyeon Lee
+# reference: https://github.com/lukemelas/EfficientNet-PyTorch
 
 import torch
 from torch import nn
@@ -15,7 +14,7 @@ from utils import (
     round_repeats,
     drop_connect,
     get_same_padding_conv2d,
-    get_model_params,
+    get_model_params,   
     efficientnet_params,
     load_pretrained_weights,
     Swish,
