@@ -25,6 +25,7 @@ There are 5 sole types and you can make your own feet position. By several manip
 3. Locate a image that you want to test in the directory that have files.
 4. At the end if the code of the test.ipynb or test.py, you need to modify the path of the file.
 5. Now, you can test your image.
+
 There are two directory: one is composed of python files and the trained model that predicts the floor number and the other is composed of .ipynb files that trains model, tests model and so on.
 
 <img src="https://user-images.githubusercontent.com/69745143/101986487-68dbd180-3cd1-11eb-8100-ad24808f1d85.PNG"  width="200" height="220"><img src="https://user-images.githubusercontent.com/69745143/101986489-6aa59500-3cd1-11eb-9e01-577bc21d7858.PNG"  width="200" height="220"><img src="https://user-images.githubusercontent.com/69745143/101986490-6c6f5880-3cd1-11eb-9806-e54f5e17ec72.PNG"  width="200" height="220"><img src="https://user-images.githubusercontent.com/69745143/101986493-6ed1b280-3cd1-11eb-822b-8a3e6ed0bb34.PNG"  width="200" height="220">
