@@ -68,6 +68,6 @@ model.load_state_dict(torch.load('best.pt', map_location=device))
 
 
 
-image = Image.open('sample.png').convert('RGB')
+image = Image.open('sample.png').convert('RGB') # directory setting. Change sample.png to path of an input image
 pred = test(image)
 show_result(pred, image)
