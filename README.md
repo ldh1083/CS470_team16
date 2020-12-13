@@ -23,7 +23,7 @@ There are 5 sole types and you can make your own feet position. By several manip
 1. Download the 'backend' folder
 2. If you have colab, you can use test.ipynb or if you have only execute python files, you can use test.py.
 3. Locate a image that you want to test in the directory that have files.
-4. At the end if the code of the test.ipynb or test.py, you need to modify the path of the file.
+4. At the end of the code of the test.ipynb or test.py, you need to modify the path of the file.
 5. Now, you can test your image.
 
 There are two directory: one is composed of python files and the trained model that predicts the floor number and the other is composed of .ipynb files that trains model, tests model and so on.
