@@ -6,6 +6,12 @@ We motivated by contacting hands to buttons in the elevator. Because of COVID 19
 
 ## Usage
 ### Front
+#### How to run the frontend
+1. Download the 'frontend' folder.
+2. Execute Foot.html (Google Chrome recommended) and create foot position.
+3. Without local server - if you click the button below, the screenshot will appear below the button. Using right-click, download the image.
+4. With local server - if you have local server running, the image will be downloaded to your local folder.
+
 You can access our web site by executing Foot.html. So you can see 15 feet positions mean 15 floors.
 ![웹 페이지1](https://user-images.githubusercontent.com/69745143/101984126-bef54880-3cc2-11eb-8f8a-0041143b1ab9.png)
 
